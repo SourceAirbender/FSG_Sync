@@ -15,7 +15,7 @@ register(GRAMPLET,
          detached_width = 500,
          detached_height = 500,
          version = 'alpha v1.0.2',
-         gramps_target_version= '5.2',
+         gramps_target_version= '6.0',
          navtypes=["Person"],
          requires_mod=["packaging","requests"],
          )

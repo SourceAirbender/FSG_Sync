@@ -6,14 +6,21 @@ from typing import List, Dict, Any
 # GTK / WebKit2
 import gi
 gi.require_version("Gtk", "3.0")
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 998dda87f76a3603882c9b319d12e1cea6318da5
 from gi.repository import Gtk
 try:
     gi.require_version("WebKit2", "4.0")
 except ValueError:
     try:
+<<<<<<< HEAD
         gi.require_version("WebKit2", "4.1")
+=======
+        gi.require_version("WebKit2", "4.0")
+>>>>>>> 998dda87f76a3603882c9b319d12e1cea6318da5
     except ValueError:
         pass
 
